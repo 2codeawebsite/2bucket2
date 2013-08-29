@@ -5,9 +5,9 @@ class TestClass1 {
 
 	public function checkNum($num1, $num2) {
 		if($num1 > $num2) {
-			return true;
+			return "TRUE";
 		} else {
-			return false;
+			return "FALSE";
 		}
 	}
 	
