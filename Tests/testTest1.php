@@ -11,7 +11,7 @@ class TestTest1 extends PHPUnit_Framework_TestCase {
 	
 	function testGetAgeCreateObject() {
 		$user = new User('Jens', 'Hansen', 'jhansen', 'jens@hansen.dk', 'Copenhagen', 'Denmark', 45, 'male', 'carpenter');
-		$this->assertNotNull($user);
+		$this->assertNull($user);
 	}
 	
 	/*
