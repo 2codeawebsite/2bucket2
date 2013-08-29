@@ -1,6 +1,6 @@
 <?php
 
-class TestClass1 {
+class Test1 {
 
 
 	public function checkNum($num1, $num2) {
