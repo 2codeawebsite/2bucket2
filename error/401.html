@@ -2,11 +2,10 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>Welcome!</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>ERROR 401 - Unauthorized!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="robots" content="noindex" />
-	<style type="text/css"><!--
+    <style type="text/css"><!--
     body {
         color: #444444;
         background-color: #EEEEEE;
@@ -21,11 +20,13 @@
         margin: 24px auto;
         padding: 12px;
     }
-    #header{
+    #header {
         padding: 6px ;
         text-align: center;
     }
-    .header{ background-color: #83A342; color: #FFFFFF; }
+    .status3xx { background-color: #475076; color: #FFFFFF; }
+    .status4xx { background-color: #C55042; color: #FFFFFF; }
+    .status5xx { background-color: #F2E81A; color: #000000; }
     #content {
         padding: 4px 0 24px 0;
     }
@@ -44,13 +45,13 @@
 </head>
 <body>
     <div id="page">
-        <div id="header" class="header">
-            <h1>Welcome to <!--ADRESSE//-->your website!<!--ADRESSE//--></h1>
+        <div id="header" class="status4xx">
+            <h1>ERROR 401 - Unauthorized!</h1>
         </div>
         <div id="content">
-            <h2>This is the default index page of your website.</h2>
-            <p>This file may be deleted or overwritten without any difficulty. This is produced by the file <b>index.html</b> in the <b>web</b> directory.</p>
-            <p>For questions or problems please contact <!--SUPPORT//-->support<!--SUPPORT//-->.</p>
+            <h2>The following error occurred:</h2>
+            <p>The URL requested requires authorisation.</p>
+			<P>Please contact the <!--WEBMASTER//-->webmaster<!--WEBMASTER//--> with any queries.</p>
         </div>
         <div id="footer">
             <p>Powered by <a href="http://www.ispconfig.org">ISPConfig</a></p>
