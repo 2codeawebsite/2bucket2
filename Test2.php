@@ -1,13 +1,13 @@
 <?php
 
-class TestClass1 {
+class Test2 {
 
 
 	public function checkNum($num1, $num2) {
 		if($num1 > $num2) {
-			return "TRUE";
+			return TRUE;
 		} else {
-			return "FALSE";
+			return FALSE;
 		}
 	}
 	
